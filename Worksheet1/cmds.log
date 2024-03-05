@@ -1,0 +1,969 @@
+    1  exit
+    2  pwd
+    3  ls
+    4  exit
+    5  ls
+    6  exit
+    7  sudo grep
+    8  su jyotika
+    9  su
+   10  clear
+   11  su
+   12  ls
+   13  hostory
+   14  history
+   15  ls
+   16  passwd
+   17  ls
+   18  exit
+   19  cat /etc/passwd
+   20  cat /etc/shadow
+   21  lear
+   22  clear
+   23  sudo cat /etc/shadow
+   24  clear
+   25  sudo cat /etc/shadow
+   26  cat /etc/shadow
+   27  sudo cat /etc/shadow
+   28  clear
+   29  sudo cat /etc/shadow
+   30  clear
+   31  ls
+   32  pwd
+   33  ls
+   34  touch a.txt
+   35  ls -l;tr
+   36  ls -ltr
+   37  cat /etc/group
+   38  clear
+   39  ls
+   40  ls -ltr
+   41  chgrp S77 a.txt 
+   42  ls -ltr
+   43  echo "hello"> a.txt 
+   44  cat a.txt 
+   45  pwd
+   46  ls -ltr /mnt/scratch/FA23_CS131_Ashish
+   47  pwd
+   48  cd ..
+   49  chmod 777 ashish
+   50  ls -ltr
+   51  chmod 700 ashish
+   52  ls -ltr
+   53  exit
+   54  ls
+   55  grep demouser /etc/passwd`
+   56  grep demouser /etc/passwd
+   57  ls -ltr /home/demouser/
+   58  sudo ls -ltr /home/demouser/
+   59  userdel demouser
+   60  sudo userdel demouser
+   61  pkill 4139854
+   62  sudo userdel demouser
+   63  kill -9 4139854
+   64  sudo kill -9 4139854
+   65  pwd
+   66  ls
+   67  useradd newuser
+   68  sudo useradd demouser
+   69  grep demouser /etc/passwd
+   70  su demouser
+   71  cat /etc/default/useradd
+   72  sudo passwd demouser
+   73  su demouser
+   74  su - demouser
+   75  su - ashish
+   76  pwd
+   77  ls
+   78  whoami
+   79  su ashish
+   80  ls
+   81  whoami
+   82  exit
+   83  clear
+   84  userdel bob
+   85  sudo userdel bob
+   86  sudo kill -9 4162501
+   87  sudo userdel bob
+   88  ps aux | grep 4162501
+   89  kill -9 4164094
+   90  sudo kill -9 4164094
+   91  sudo pkill 4164094
+   92  ps aux | grep 4162501
+   93  sudo userdel bob
+   94  exit
+   95  clear
+   96  su bob
+   97  exit
+   98  whoami
+   99  ls
+  100  ls -l
+  101  chmod 777 a.txt 
+  102  ls -ltr
+  103  clear
+  104  grep bob /etc/passwd
+  105  useradd bob
+  106  sudo useradd bob
+  107  grep bob /etc/passwd
+  108  su - bob
+  109  sudo passwd bob
+  110  su - bob
+  111  exit
+  112  cat /etc/passwd
+  113  clear
+  114  su - maysp24
+  115  exit
+  116  sudo userdel bob
+  117  ps aux
+  118  clear
+  119  sudo userdel bob
+  120  cat /etc/group
+  121  clear
+  122  ps aux | grep 4162501
+  123  sudo userdel bob
+  124  grep bob /etc/passwd
+  125  grep bob /etc/group
+  126  grep ashish /etc/group
+  127  clear
+  128  crontab -l
+  129  crontab -e
+  130  ls
+  131  cat result.txt 
+  132  clear
+  133  crontab -l
+  134  crontab -e
+  135  echo printing this line at `date`
+  136  ls
+  137  cat result2.txt 
+  138  crontab -l
+  139  tail -f result2.txt 
+  140  mkdir cs131
+  141  ls cs131/
+  142  pwd
+  143  clear
+  144  pwd
+  145  ls
+  146  cd cs131/
+  147  ls -ltr
+  148  mkdir assignment 2
+  149  git add A
+  150  git commit -m "some commit message"
+  151  ls
+  152  ls -ltr
+  153  s
+  154  cd ..
+  155  ls
+  156  rdmir cs131
+  157  sudo rm -rf cs131/
+  158  clear
+  159  crontab -l
+  160  crontab -r
+  161  crontab -l
+  162  ls
+  163  userdel demouser
+  164  sudo userdel demouser
+  165  grep demouser /etc/passwd
+  166  man usermod
+  167  crontab
+  168  crontab -l
+  169  crontab -e
+  170  crontab -l
+  171  cat /etc/crontab 
+  172  ls
+  173  cat result.txt 
+  174  echo curernt ime is `date`
+  175  crontab -e
+  176  ls
+  177  rm result.txt 
+  178  tail -f result.txt 
+  179  cat result.txt 
+  180  crontab -l
+  181  crontab -e
+  182  cat result.txt 
+  183  crontab -e
+  184  crontab -l
+  185  ls
+  186  cat result.txt 
+  187  ls
+  188  mkdir spotify
+  189  cd spotify/
+  190  https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+  191  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+  192  clear
+  193  ls
+  194  cd ..
+  195  ls
+  196  cd spotify/
+  197  ls
+  198  ls -ltr
+  199  cd ..
+  200  ls
+  201  ls -ltr
+  202  ls -ltr | grep spotify/
+  203  ls -ltr | grep spotify
+  204  ls -ltr | grep spotify/spotify-2023.csv  | wc -l
+  205  ls -ltr | spotify-2023.csv
+  206  cd spotify/
+  207  ls
+  208  ls -ltr | wc- l
+  209  wc -l
+  210  ls -ltr | wc -l
+  211  ls -ltr 
+  212  ls
+  213  grep taylor spotify-2023.csv 
+  214  grep -i taylor spotify-2023.csv 
+  215  grep -i taylor spotify-2023.csv | grep -i "ed sheeran" 
+  216  grep -i taylor spotify-2023.csv | grep -i "ice spice" 
+  217  mkdir newDir
+  218  ls -ltr
+  219  chmod a-x newDir/
+  220  ls -lr
+  221  cd newDir/
+  222  ls
+  223  cd ..
+  224  ls
+  225  touch c.txt
+  226  touch z.txt
+  227  touch ab.txt
+  228  clear
+  229  ls -ltr
+  230  ls [a].txt
+  231  ls [a-z].txt
+  232  ls [ab].txt
+  233  ls *.txt
+  234  cd spotify/
+  235  ls
+  236  touch recursiveText.txt
+  237  cd ..
+  238  ls
+  239  ls *.txt
+  240  find . -name *.txt
+  241  find . -name "*.txt"
+  242  find . -type f -empty
+  243  ls
+  244  rm c.txt 
+  245  ls
+  246  find . -name "*.txt" | rm -rf
+  247  ls
+  248  ls -ltr
+  249  find . -name "*.txt" 
+  250  find . -name "*.txt" | rm 
+  251  find . -name "*.txt" | rm -rf
+  252  ls
+  253  find . -name "*.txt" | xargs rm -rf
+  254  ls
+  255  ls spotify/
+  256  cat /mnt/scratch/FA23_CS131_Ashish/jyotika/files/spotify-2023.csv
+  257  pwd
+  258  cd ../jyotika/
+  259  cat /mnt/scratch/FA23_CS131_Ashish/jyotika/files/spotify-2023.csv
+  260  ls
+  261  cd ~
+  262  ls
+  263  stat spotify/
+  264  fstat spotify/
+  265  man fstat
+  266  fstat
+  267  stat
+  268  man mv
+  269  strace mkdir
+  270  clear
+  271  ping www.google.com
+  272  traceroute www.google.com
+  273  tracepath www.google.com
+  274  ls
+  275  pwd
+  276  ls
+  277  touch a.txt
+  278  touch b.txt
+  279  touch z.txt
+  280  clear
+  281  ls
+  282  ls -ltr
+  283  ls -ltr | grep spotify/
+  284  ls -ltr | grep spotify
+  285  ls
+  286  cd spotify/
+  287  ls
+  288  cat spotify-2023.csv 
+  289  clear
+  290  ls
+  291  grep -i "ice spice" spotify-2023.csv 
+  292  clear
+  293  grep -i "ice spice" spotify-2023.csv 
+  294  grep -i "ice spice" spotify-2023.csv | grep "PinkPantheress"
+  295  grep -i "ice spice" spotify-2023.csv | grep "PinkPantheress" | wc -l
+  296  ls -ltr | wc -l
+  297  ls
+  298  ls -ltr
+  299  mkdir tryDir
+  300  ls tryDir/
+  301  ls -a tryDir/
+  302  cd tryDir/
+  303  clear
+  304  pwd
+  305  cd ..
+  306  pwd
+  307  ls
+  308  ls -ltr spotify-2023.csv 
+  309  ls -ltr
+  310  chmod 444 spotify-2023.csv 
+  311  ls -ltr
+  312  chmod 777 spotify-2023.csv 
+  313  ls -ltr
+  314  clear
+  315  ls -ltr
+  316  chmod g-wxr spotify-2023.csv 
+  317  ls -ltr
+  318  chmod g+r spotify-2023.csv 
+  319  ls -ltr
+  320  chmod g-wxr spotify-2023.csv 
+  321  clear
+  322  ls -ltr
+  323  chmod g+wx spotify-2023.csv 
+  324  ls -ltr
+  325  chmod g-x spotify-2023.csv 
+  326  ls -ltr
+  327  chmod u-wrx spotify-2023.csv 
+  328  ls -ltr
+  329  cat spotify-2023.csv 
+  330  chmod u+rwx spotify-2023.csv 
+  331  ls -ltr
+  332  cat spotify-2023.csv 
+  333  clear
+  334  ls
+  335  cd ..
+  336  ls
+  337  touch aa.txt
+  338  ls -ltr
+  339  ls *.txt
+  340  ls ?.txt
+  341  ls [ab].txt
+  342  ls [!ab].txt
+  343  find . -empty
+  344  ls
+  345  cd spotify/
+  346  ls -ltr
+  347  cd newDir/
+  348  chmod 700 newDir/
+  349  cd newDir/
+  350  ls
+  351  clear
+  352  find . -empty
+  353  pwd
+  354  cd ..
+  355  find . -empty
+  356  ls
+  357  cd spotify/
+  358  ls
+  359  cd ..
+  360  clear
+  361  find . -name "spotify-2023.csv"
+  362  cd ashish/spotify/
+  363  ls
+  364  clear
+  365  man find
+  366  ls
+  367  cd spotify/
+  368  ls
+  369  cd newDir/
+  370  pwd
+  371  cd ..
+  372  pwd
+  373  cd /mnt/scratch/FA23_CS131_Ashish/ashish/spotify/newDir
+  374  pwd
+  375  clear
+  376  vi hasSomdeData
+  377  cat hasSomdeData 
+  378  ls
+  379  ls -ltr
+  380  stat hasSomdeData 
+  381  ls -ltr
+  382  pwd
+  383  mv hasSomdeData /..
+  384  mv hasSomdeData ..
+  385  ls
+  386  cd ..
+  387  ls -ltr
+  388  mv hasSomdeData /mnt/scratch/FA23_CS131_Ashish/ashish/spotify/newDir
+  389  ls
+  390  cd newDir/
+  391  ls -ltr
+  392  clear
+  393  pwd
+  394  cd ../../
+  395  pwd
+  396  ls
+  397  cd spotify/
+  398  man mv
+  399  mkdir emptyDir
+  400  ls -latr emptyDir/
+  401  strace mkdir
+  402  clear
+  403  ls
+  404  ls newDir/
+  405  rmdir newDir/
+  406  rm -rf newDir/
+  407  ls
+  408  ls emptyDir/
+  409  rmdir emptyDir/
+  410  ls
+  411  clear
+  412  ls
+  413  cd tryDir/
+  414  touch movefile.txt
+  415  ls
+  416  stat movefile.txt 
+  417  mv movefile.txt ..
+  418  stat ../movefile.txt 
+  419  clear
+  420  ls
+  421  touch copyfile.txt
+  422  stat copyfile.txt 
+  423  cp copyfile.txt ..
+  424  ls
+  425  cd ..
+  426  ls
+  427  stat copyfile.txt 
+  428  pwd
+  429  clear
+  430  pwd
+  431  stat copyfile.txt 
+  432  ls
+  433  cd tryDir/
+  434  ls
+  435  stat copyfile.txt 
+  436  clear
+  437  echo "hello" > newfile.txt
+  438  cat newfile.txt 
+  439  echo "hello" > /dev/tty
+  440  ls
+  441  userdel jyotika
+  442  userdel -r jyotika
+  443  userdel -R jyotika
+  444  exit
+  445  ls
+  446  echo "hello" > newfile.txt
+  447  cat newfile.txt 
+  448  echo "hello" > /dev/tty
+  449  5
+  450  ls
+  451  clear
+  452  cat /etc/passwd
+  453  cat /etc/shadow
+  454  sudo cat /etc/shadow
+  455  userdel ken
+  456  sudo userdel ken
+  457  userdel ken2
+  458  ls
+  459  sudo userdel ken
+  460  sudo userdel ken2
+  461  ls
+  462  ls -ltr
+  463  cleat
+  464  clear
+  465  cd /home/keuseradd
+  466  useradd bob
+  467  sudo useradd bob
+  468  cd /home/bob/
+  469  sudo useradd bob5
+  470  userdel -r bob5 
+  471  sudo userdel -r bob5 
+  472  clear
+  473  cat /etc/shadow
+  474  date
+  475  touch filedate.txt
+  476  cd $HOME
+  477  ls
+  478  touch filedate.txt
+  479  ls
+  480  touch file`date`.txt
+  481  ls
+  482  ls -l
+  483  touch file$(date).txt
+  484  ls
+  485  ls -r
+  486  ls -lr
+  487  cd spotify/
+  488  ls
+  489  cd tryDir/
+  490  ls
+  491  rm *
+  492  ls
+  493  clear
+  494  touch file$(date).txt
+  495  ls
+  496  ls -ltr
+  497  touch file-$(date).txt
+  498  ls -ltr
+  499  rm *
+  500  clear
+  501  touch file-$(date).txt
+  502  ls
+  503  rm
+  504  rm *
+  505  ls
+  506  clear
+  507  touch file-$(date -I).txt
+  508  ls
+  509  rm *
+  510  touch dile-`date -I`.txt
+  511  ls -ltr
+  512  find / -type d -name cs131
+  513  find / -type d -name cs131 1> answer.txt 2> error.txt 0>input.txt
+  514  ls -ltr
+  515  cat input.txt 
+  516  cat answer.txt 
+  517  cat error.txt 
+  518  find / -type d -name cs131 1>danswer.txt 2>derror.txt
+  519  ls
+  520  stat derror.txt 
+  521  fstat
+  522  man stat
+  523  stat
+  524  fstat derror.txt 
+  525  cat /etc/passwd
+  526  clear
+  527  ls
+  528  whereis ls
+  529  /usr/bin/ls
+  530  ls /usr/bin/
+  531  whatis ls
+  532  man whatis
+  533  whatis pwd
+  534  printenv
+  535  printenv | grep '/usr/bin'
+  536  printenv | grep 'PATH'
+  537  clear
+  538  ls
+  539  clear
+  540  ls
+  541  clear
+  542  cd ..
+  543  ls
+  544  clear
+  545  ls
+  546  whereis ls
+  547  /usr/bin/ls
+  548  ps
+  549  ps -aux
+  550  ps -ax
+  551  ps -aux
+  552  ps aux
+  553  clear
+  554  ps aux | grep '1'
+  555  ps aux | grep 'init'
+  556  clear
+  557  ps aux | grep 'init'
+  558  clear
+  559  ps aux | grep 'systemd'
+  560  ps aux | head -1
+  561  ps aux | grep 'systemd' | head -1
+  562  grep ashish spotify-2023.csv 
+  563  ps aux | grep 'ashish'
+  564  $?
+  565  ps aux | grep 'ashish'
+  566  echo $?
+  567  ps aux | grep 'Zz'
+  568  ps aux | grep 'Z'
+  569  top
+  570  ls
+  571  rm spotify-2023.csv 
+  572  ls
+  573  clear
+  574  wget https://raw.githubusercontent.com/Yasjun0609/cs131/master/Worksheet2/results_Music_category.txt
+  575  ls
+  576  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+  577  ls
+  578  clear
+  579  ls
+  580  grep ',music,' spotify-2023.csv 
+  581  grep ',Music,' spotify-2023.csv 
+  582  cd ..
+  583  mkdir yt
+  584  cd yt/
+  585  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  586  ls
+  587  grep ',Music,' Global\ YouTube\ Statistics.csv 
+  588  grep ',Music,' Global\ YouTube\ Statistics.csv | wc -l
+  589  awk -F ',' '$5 == "Music" {count++} END {print count}' Global\ YouTube\ Statistics.csv 
+  590  grep -E '^[^,]+(,[^,]+){4},Music,' your_file.csv
+  591  grep -E '^[^,]+(,[^,]+){4},Music,' Global\ YouTube\ Statistics.csv 
+  592  grep -E '^[^,]+(,[^,]+){4},Music,' your_file.csv
+  593  grep -i "music" Global\ YouTube\ Statistics.csv 
+  594  grep -i "music" Global\ YouTube\ Statistics.csv | wc -l
+  595  grep -i "Music" Global\ YouTube\ Statistics.csv | wc -l
+  596  grep "Music" Global\ YouTube\ Statistics.csv | wc -l
+  597  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  598  ls
+  599  grep "Music" Global\ YouTube\ Statistics.csv.1 
+  600  grep "Music" Global\ YouTube\ Statistics.csv.1  | wc -l
+  601  ls
+  602  rm *
+  603  ls
+  604  wget wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  605  grep "Music" Global\ YouTube\ Statistics.csv 
+  606  grep "Music" Global\ YouTube\ Statistics.csv | wc -l
+  607  history
+  608  rm *
+  609  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  610  ls
+  611  ls -ltr
+  612  grep "Music" Global\ YouTube\ Statistics.csv | wc -l
+  613  grep 'grep -E '^[^,]+(,[^,]+){4},Music,' your_file.csv
+  614  grep -E '^[^,]+(,[^,]+){4},Music,' your_file.csv
+  615  grep -E '^[^,]+(,[^,]+){4},Music,' Global\ YouTube\ Statistics.csv 
+  616  awk -F ',' '$5 == "Music" {count++} END {print count}' your_file.csv
+  617  awk -F ',' '$5 == "Music" {count++} END {print count}' Global\ YouTube\ Statistics.csv 
+  618   grep -E '^([^,]*,){9}[^,]*Music' 'Global YouTube Statistics.csv'
+  619   grep -E '^([^,]*,){9}[^,]*Music' 'Global YouTube Statistics.csv' | wc -l
+  620  ls
+  621  top
+  622  ps aux
+  623  ls /proc/$$/fd
+  624  man exec
+  625  clear
+  626  ls /proc/$$/fd
+  627  exec 5>&2
+  628  exec 5>err.txt
+  629  find / -name cs131 >&5
+  630  ls
+  631  cat err.txt 
+  632  find / -name cs131>&5
+  633  history 
+  634  ls
+  635  cat err.txt 
+  636  clear
+  637  ls /proc/$$/fd
+  638  ls -l
+  639  clear
+  640  cat ss
+  641  cat 
+  642  clear
+  643  ps aux | grep "chrome"
+  644  ps aux
+  645  ps aux | grep ashish
+  646  ls /proc/2797690/fd
+  647  ls -la /proc/2797690/fd
+  648  echo $TTY
+  649  printenv
+  650  su - jyotika
+  651  ls
+  652  clear
+  653  userdel jyotika
+  654  sudo userdel jyotika
+  655  cat etc/passwd | grep jyotika
+  656  cat /etc/passwd | grep jyotika
+  657  cat /etc/passwd | grep ashish
+  658  ls
+  659  pwd
+  660  cd ~
+  661  pwd
+  662  cd ..
+  663  ls
+  664  cd ..
+  665  ls
+  666  cd ..
+  667  ls
+  668  cd ..
+  669  ls
+  670  pwd
+  671  sudo find / -name wba
+  672  cd /root/wba
+  673  cd /root/
+  674  ls
+  675  sudo ls
+  676  su - root
+  677  clear
+  678  clear
+  679  mkdir Tuesday
+  680  cd Tuesday/
+  681  pwd
+  682  echo $HOME
+  683  cd /
+  684  pwd
+  685  ls
+  686  cd ~
+  687  pwd
+  688  clear
+  689  cat /etc/passwd | grep ashish
+  690  grep -i taylor spotify-2023.csv | grep -i "ice spice"
+  691  history
+  692  clear
+  693  echo "hello"
+  694  cat /etc/shadow
+  695  clear
+  696  cat /etc/passwd
+  697  ls
+  698  ls -ltr
+  699  whereis ls
+  700  ls 
+  701  /usr/bin/ls 
+  702  cat /usr/bin/ls 
+  703  ::q!
+  704  clear
+  705  whereis ls
+  706  ls
+  707  printenv
+  708  clear
+  709  iperf
+  710  whereis mkdir
+  711  clear
+  712  ps
+  713  echo $?
+  714  clear
+  715  ps aux
+  716  clear
+  717  ps
+  718  ps aux | head
+  719  clear
+  720  ps a
+  721  ps x
+  722  clear
+  723  ps 
+  724  ls
+  725  cd spotify/
+  726  ls
+  727  grep -i taylor spotify-2023.csv | ps 
+  728  clear
+  729  ps aux | grep systemd
+  730  ps aux | head -1
+  731  clear
+  732  ps -p 1
+  733  ps
+  734  top
+  735  echo "hello" > hello.txt
+  736  cat hello.txt 
+  737  find / -name "CS131" -type d
+  738  clear
+  739  find / -name "CS131" -type d 1> findop.txt 2> finderrors.txt
+  740  ls
+  741  ls -ltr
+  742  cat findop.txt
+  743  cat finderrors.txt
+  744  clear
+  745  find / -name "CS131" -type d
+  746  clear
+  747  ls
+  748  wc < spotify-2023.csv 
+  749  wc spotify-2023.csv 
+  750  cat
+  751  who
+  752  who | wc -l
+  753  cats and dogs | echo hello
+  754  cd demo/
+  755  ls
+  756  vi cf1.c
+  757  ls
+  758  touch a.txt
+  759  echo "hello" > b.txt
+  760  wc -c *.txt
+  761  cat *txt | wc -c
+  762  cat *.txt | wc -c
+  763  who | tee res.txt | wc -w
+  764  mkfifo newpipe
+  765  echo "chal gto raha hai" > newpipe
+  766  cat < nofish
+  767  mkfifo newpipe
+  768  ls
+  769  ls -ltr
+  770  chmod 777 newpipe 
+  771  ls
+  772  ls -ltr
+  773  cat < nofish
+  774  pwd
+  775  cat < /mnt/scratch/SP24_CS131_Jyotika/jyotika/nofish
+  776  sudo cat < /mnt/scratch/SP24_CS131_Jyotika/jyotika/nofish
+  777  ls
+  778  clear
+  779  mkdir IPC
+  780  cd I
+  781  cd IPC/
+  782  clear
+  783  ls
+  784  clear
+  785  cmds.log
+  786  history > cmds.log
+  787  vi cmds.log 
+  788  cat cmds.log 
+  789  clear
+  790  ls
+  791  cat cmds.log 
+  792  clear
+  793  ec -l cmds.log 
+  794  wc -l cmds.log 
+  795  vi cmds.log 
+  796  echo "" > cmds.log 
+  797  cat cmds.log 
+  798  find / -name "CS131" -type d 1> findop.txt 2> /dev/null
+  799  ls
+  800  cat findop.txt 
+  801  history > cmds.log
+  802  wc -l cmds.log 
+  803  cmds.log < /dev/null 
+  804  ls
+  805  cat cmds.log < /dev/n
+  806  cat cmds.log < /dev/null
+  807  ls
+  808  wc -l cmds.log 
+  809  clear
+  810  cat /dev/null > cmd.log
+  811  cat cmd.log 
+  812  cat /dev/null > cmds.log
+  813  cat cmds.log 
+  814  cat cmds.log < /dev/null
+  815  echo "hello" > /dev/tty
+  816  echo "hello" > cmds.log 
+  817  echo "12+5"
+  818  echo "12+5" | bc
+  819  echo "10^5" | bc
+  820  echo "12+5"
+  821  clear
+  822  grep -i taylor spotify-2023.csv | grep -i "ice spice"
+  823  cd ..
+  824  cd spotify/
+  825  grep -i notanartist spotify-2023.csv | grep -i "ice spice"
+  826  lear
+  827  clear
+  828  cd ..
+  829  clear
+  830  ls | wc
+  831  ls
+  832  ls -ltr
+  833  ls -ltr | wc -l 
+  834  find . type -f
+  835  find . -type f
+  836   | wc -l
+  837  find . -type f | wc -l
+  838  clear
+  839  who
+  840  date
+  841  clear
+  842  who
+  843  who | wc -l
+  844  clear
+  845  ls
+  846  cd ..
+  847  ls
+  848  cd ~
+  849  clear
+  850  ls
+  851  cd demo/
+  852  ls
+  853  cat cf1.c 
+  854  wc -c cf1.c 
+  855  touch cf2.txt
+  856  touch cf3.c
+  857  mv cf2.txt cf2.c
+  858  ls -ltr
+  859  echo "hello"> cf2.c 
+  860  echo "hello3"> cf3.c 
+  861  clear
+  862  ls
+  863  ls -ltr
+  864  wc -c cf1.c 
+  865  ls *.c
+  866  wc -c *.c
+  867  cat *.c | wc -c
+  868  history
+  869  ls
+  870  history > cmds.log
+  871  cat cmds.log 
+  872  vi cmd.log
+  873  vi cmds.log
+  874  cat cmds.log 
+  875  clear
+  876  ls
+  877  ls a.txt
+  878  clear
+  879  ls
+  880  mkdir ws2
+  881  cd ws2
+  882  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  883  ls
+  884  grep ",music," Global\ YouTube\ Statistics.csv > musicres.txt
+  885  wc -l musicres.txt 
+  886  ls
+  887  grep -i ",music," Global\ YouTube\ Statistics.csv > musicres.txt
+  888  wc -l musicres.txt 
+  889  wc musicres.txt 
+  890  grep -i ",United States," Global\ YouTube\ Statistics.csv > musicres.txt
+  891  wc musicres.txt 
+  892  ls
+  893  git status
+  894  clear
+  895  ls
+  896  rm *.txt
+  897  ls
+  898  find . -type d ! -name "spotify" -exec rm {} +
+  899  find . -type d ! -name "spotify" -exec rm -rf {} +
+  900  ls
+  901  rm 01\:2*
+  902  ls
+  903  rm 25 
+  904  rm EST 
+  905  rm Feb 
+  906  ls
+  907  rm fileSun 
+  908  clear
+  909  ls
+  910  pwd
+  911  nano a.txt
+  912  echo "hello" 1> a.txt
+  913  cat a.txt 
+  914  echo "hello" 2> b.txt
+  915  cat b.txt 
+  916  clear
+  917  ls
+  918  git init
+  919  git status
+  920  git add remote origin git@github.com:Atishay8192261/test.git
+  921  git remote add origin git@github.com:Atishay8192261/test.git
+  922  mkdir Worksheet1
+  923  cdWorksheet1
+  924  cd Worksheet1
+  925  c ..
+  926  cd ..
+  927  git add .
+  928  ssh-keygen -t ed5519 -C "Atishay8192261"
+  929  ssh --help
+  930  cd ~/.ssh && ssh-keygen
+  931  git status
+  932  cd cs141
+  933  cd Worksheet1
+  934  cd ~/.ssh && ssh-keygen
+  935  cd ~/.ssh
+  936  mkdir ~/.ssh
+  937  cd ~/.ssh && ssh-keygen
+  938  cat id_rsa.pub
+  939  git add .
+  940  git commit -m "changes made"
+  941  git config --global user.email "smartatishay09@gmail.com"
+  942  git config --global user.name "Atishay8192261"
+  943  git status
+  944  git config --list
+  945  git commit -m "changes made"
+  946  git push
+  947  git push --set-upstream origin mastergit push --set-upstream origin maste
+  948  git push --set-upstream origin master
+  949  git status
+  950  git diff --stat --staged master
+  951  git diff --stat --staged origin/master
+  952  git log 
+  953  cd ..
+  954  ls
+  955  cd Worksheet1
+  956  git add Worksheet1
+  957  cd ..
+  958  pwd
+  959  git add Worksheet1
+  960  git status
+  961  git add .
+  962  git status
+  963  git add -f path/to/the/file
+  964  git add -f Worksheet1/
+  965  git status
+  966  git add -f Worksheet1
+  967  git status
+  968  cd Worksheet1
+  969  history > cmds.log
